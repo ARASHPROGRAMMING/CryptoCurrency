@@ -1,0 +1,36 @@
+/* card */
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+   gap: 55px;
+}
+
+.card {
+    /* display: flex; */
+    width: 20%;
+    height: 300px;
+    background: linear-gradient(to right, #0B121E 10%,  #270113 );
+    border: 5px solid  #3C3601;
+    border-radius: 5px;
+}
+
+
+
+#card__img {
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+.text__card {
+    border-radius: 5px;
+    height: 187px;
+}
+
+#name__card, #price__card {
+    color: whitesmoke;
+    margin-left: 57px;
+    margin-top: 50px;
+}

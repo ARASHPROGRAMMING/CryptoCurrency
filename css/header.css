@@ -20,19 +20,16 @@
 nav {
     margin-top: 25px;
 }
-
 ul {
     display: flex;
     gap: 65px;
 }
-
 a {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     padding: 5px;
     transition: all 0.5s linear;
 }
-
 a:hover {
     font-size: 18px;
     background-color: #DCBCD1;

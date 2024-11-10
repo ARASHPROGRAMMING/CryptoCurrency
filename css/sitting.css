@@ -1,7 +1,7 @@
 /* css reset */
 * {
   margin: 0;
-  height: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -24,7 +24,7 @@ body {
 }
 
 /* style off box */
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-}
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
