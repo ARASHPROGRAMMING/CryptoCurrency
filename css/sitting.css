@@ -1,0 +1,11 @@
+/* css reset */
+* {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
