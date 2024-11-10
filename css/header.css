@@ -1,0 +1,42 @@
+/* Start Header */
+.start___header {
+  width: 100%;
+  height: 50px;
+  /* background-color: #0a3048; */
+  background: linear-gradient(to right, #B36B9A , #0a3048 50%);
+  border-radius: 0.3rem;
+}
+
+/* text header */
+#text__header {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 8px 8px 8px black;   
+}
+
+
+/* mneu */
+
+nav {
+    margin-top: 25px;
+}
+
+ul {
+    display: flex;
+    gap: 65px;
+}
+
+a {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+
+a:hover {
+    font-size: 18px;
+    background-color: #DCBCD1;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px 2px inset black;
+}
