@@ -9,19 +9,22 @@
 }
 
 .card {
-    /* display: flex; */
     width: 20%;
     height: 300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.605); 
     border-radius: 8px;
-    /* padding: 20px;  */
+    cursor: pointer;
+  transition: all 1s linear;
 }
 
-
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}
 
 #card__img {
     margin-left: 65px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .text__card {
@@ -29,8 +32,17 @@
     height: 187px;
 }
 
-#name__card, #price__card {
+#name__card, #price__card, #price__card1 {
     color: whitesmoke;
     margin-left: 57px;
     margin-top: 50px;
+}
+
+
+#price__card{
+    margin-top: 35px;
+}
+
+#price__card1 {
+    margin-top: 10px;
 }
